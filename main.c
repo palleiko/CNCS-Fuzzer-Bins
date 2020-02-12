@@ -25,6 +25,5 @@ int main(int argc, char** argv) {
     printf("Allocating you a buffer of %d bytes\n", size);
     char buf[size];
     strcpy(buf, input);
-    printf("%s\n", buf);
     return 0;
 }
